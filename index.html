@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- the following build css comment is required by usemin to know how to contacentate css files
+         main.css will contain all the files and then will be minified -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css\styles.css">
+    <!-- endbuild -->
+    <title>Sample uses of Bootstrap</title>
+</head>
+
+<body>
+
+    <!-- sample header classes from Coursera Bootstrap 4 course -->
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Big header</h1>
+                    <p>Put something interesting in this jumbotron</p>
+                </div>
+                <div class="col-12 col-sm">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- sample content classes from Coursera Bootstrap 4 course -->
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <!-- extra small screensize will take up all 12 columns of container,
+            small screensize will take up 4 columns and medium, large and xlarge screensize will take up 4 columns -->
+            <div class="col-12 col-sm-4 col-md-3 order-sm-last"> 
+                <h3>Topic One</h3>
+            </div>
+            <!-- extra small screensize will put these elements below the above div
+            small screensize will put these in the rightmost 8 columns, large and xlarge screensize will place these 
+            in the rightmost 9 columns -->
+            <div class="col col-sm col-md"  order-sm-first>
+                <h2>First item</h2>
+                <p>This should describe something, but it does not, it just looks good.</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- sample footer classes from Coursera Bootstrap 4 course -->
+    <footer class="footer" >
+        <div class="container">
+            <div class="row" >             
+                <div class="col-4 col-md-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-md-5">
+                    <h5>Our Address</h5>
+                    <address>
+		              121, Clear Water Bay Road<br>
+		              Clear Water Bay, Kowloon<br>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a href="http://google.com/+">Google+</a>
+                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+           </div>
+        </div>
+    </footer>
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>
