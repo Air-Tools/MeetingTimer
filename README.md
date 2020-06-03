@@ -1,2 +1,3 @@
-# StarterBootstrapHtmlCssJs
-Starter website using npm, bootstrap, Html, Css and Javascript
+# Meeting Timer
+Meeting timer
+Uses npm, bootstrap, Html, Css and Javascript
